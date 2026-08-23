@@ -1,5 +1,19 @@
 {
+  "name": "cypress-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:site1": "npx cypress run",
+    "test:site2": "npx cypress run --config-file cypress.config.site2.js"
+  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "cypress": "^15.18.0"
+    "cypress": "^15.18.0",
+    "cypress-plugin-api": "^2.12.0"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^4.0.2"
   }
 }
